@@ -1,3 +1,74 @@
-body {
-    color: red;
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap'); 
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.head {
+    /* background-color: #ccc; */
+    width: 1000px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav {
+    /* background-color: #ddd; */
+}
+
+.nav ul {
+    /* background-color: red; */
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 12px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    /* background-color: red; */
+    padding: 20px;
+    display: block;
+}
+
+.contents {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contents h2 {
+    padding-bottom: 30px;
+}
+
+.contents p {
+    margin-bottom: 30px;
+}
+
+
+.bottom {
+    /* background-color: #ccc; */
+    padding: 40px;
+    text-align: center;
+    }
+
+    .bottom p {
+        font-size: 14px;
+        color: #666;
+    }
